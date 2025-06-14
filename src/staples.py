@@ -35,31 +35,28 @@ def convert(code):
     output = staples + end
     return str(output)
 
-def main():
-    parser = argparse.ArgumentParser(description="Staples Language")
-    parser.add_argument('command', choices=['runfile', 'compilefile','runstring', 'compilestring'], help='Command to run')
-    parser.add_argument('input', help='Path/String to process')
-
-    args = parser.parse_args()
-
-    if args.command == 'runfile':
-        with open(str(args.input), "r") as f:
-            to_run = f.read()
-        result = run(to_run)
-        if result is not None:
-            print(result)
-    elif args.command == 'compilefile':
-        with open(str(args.input), "r") as f:
-            to_compile = f.read()
-        result = convert(str(to_compile))
-        with open(str(args.input) + ".staples", "w") as f:
-            f.write(str(result))
-    elif args.command == 'runstring':
-        to_run = args.input
-        result = run(to_run)
-        if result is not None:
-            print(result)
-    elif args.command == 'compilestring':
-        to_compile = args.input
-        result = convert(str(to_compile))
+parser = argparse.ArgumentParser(description="Staples Language")
+parser.add_argument('command', choices=['runfile', 'compilefile','runstring', 'compilestring'], help='Command to run')
+parser.add_argument('input', help='Path/String to process')
+args = parser.parse_args()
+if args.command == 'runfile':
+    with open(str(args.input), "r") as f:
+        to_run = f.read()
+    result = run(to_run)
+    if result is not None:
         print(result)
+elif args.command == 'compilefile':
+    with open(str(args.input), "r") as f:
+        to_compile = f.read()
+    result = convert(str(to_compile))
+    with open(str(args.input) + ".staples", "w") as f:
+        f.write(str(result))
+elif args.command == 'runstring':
+    to_run = args.input
+    result = run(to_run)
+    if result is not None:
+            print(result)
+elif args.command == 'compilestring':
+    to_compile = args.input
+    result = convert(str(to_compile))
+    print(result)
