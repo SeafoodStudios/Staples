@@ -20,3 +20,7 @@ staples-lang runstring <staples_code_as_a_string>
 ```
 staples-lang compilestring <python_code_as_a_string>
 ```
+In case you don't understand, running the file runs Staples code and compiling converts Python to Staples to simplify the process.
+
+# Thanks!
+Please don't run any untrusted Staples code. Thanks for using Staples!
