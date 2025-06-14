@@ -4,21 +4,21 @@ Staples is a esoteric language that consists of four characters. This language i
 ## Quickstart
 Staples can be installed using this command:
 ```
-pip3 install staples-lang
+pip3 install staples_lang
 ```
 
 Staples can be used using a variety of self-explanatory commands:
 ```
-staples-lang runfile file.py.staples
+staples runfile <file_path>
 ```
 ```
-staples-lang compilefile file.py
+staples compilefile <file_path>
 ```
 ```
-staples-lang runstring <staples_code_as_a_string>
+staples runstring <staples_code_as_a_string>
 ```
 ```
-staples-lang compilestring <python_code_as_a_string>
+staples compilestring <python_code_as_a_string>
 ```
 In case you don't understand, running the file runs Staples code and compiling converts Python to Staples to simplify the process.
 
