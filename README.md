@@ -5,8 +5,9 @@ Staples is a esoteric language that consists of four characters. This language i
 Staples can be installed using this command:
 ```
 pip3 install staples_lang
+echo 'export PATH="$HOME/Library/Python/3.13/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
 ```
-
 Staples can be used using a variety of self-explanatory commands:
 ```
 staples runfile <file_path>
