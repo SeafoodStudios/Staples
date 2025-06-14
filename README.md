@@ -24,7 +24,8 @@ staples compilestring <python_code_as_a_string>
 In case you don't understand, running the file runs Staples code and compiling converts Python to Staples.
 Here's an example of Staples: [https://raw.githubusercontent.com/SeafoodStudios/Staples/refs/heads/main/examples/dodge.py.staples](https://raw.githubusercontent.com/SeafoodStudios/Staples/refs/heads/main/examples/dodge.py.staples)
 
-<img width="200" alt="Example" src="https://github.com/user-attachments/assets/d06bf9ec-d659-4a68-a575-3fd1fb0f22b5" />
+<img width="200" alt="OutputExample" src="https://github.com/user-attachments/assets/d06bf9ec-d659-4a68-a575-3fd1fb0f22b5" />
+<img width="200" alt="CodeExample" src="https://github.com/user-attachments/assets/1c087de8-03f7-4151-8f77-cad8452a32f7" />
 
 
 ## Thanks!
