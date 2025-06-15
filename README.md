@@ -11,7 +11,7 @@ if [ -d "/Library/Frameworks/Python.framework/Versions/3.13/bin" ]; then
   source ~/.zshrc
 fi
 ```
-Staples can be used using a variety of self-explanatory commands:
+Staples can be used using a variety of self-explanatory commands (A common syntax error is when you include an extra space, because the interpreter cannot read that.):
 ```
 staples runfile <file_path>
 ```
