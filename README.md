@@ -3,6 +3,7 @@ Staples is a esoteric language that consists of four characters. This language i
 
 ## Quickstart
 Staples can be installed using this command (**Python 3.11 is required**, so if you don't have it installed, install it [here](https://www.python.org/downloads/).):
+
 For MacOS and Linux (You want to run this in a ZSH terminal):
 ```
 pip3 install staples_lang && if [ -d "/Library/Frameworks/Python.framework/Versions/3.13/bin" ]; then grep -qxF 'export PATH="/Library/Frameworks/Python.framework/Versions/3.13/bin:$PATH"' ~/.zshrc || echo 'export PATH="/Library/Frameworks/Python.framework/Versions/3.13/bin:$PATH"' >> ~/.zshrc && source ~/.zshrc; fi
