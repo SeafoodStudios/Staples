@@ -42,6 +42,7 @@ Here are some Staples examples:
 
 
 Here is a syntax dictionary to ensure ease of use (Paste it into a TXT file, if you want.):
+
 [Syntax Dictionary Link](https://raw.githubusercontent.com/SeafoodStudios/Staples/refs/heads/main/static/staples_dictionary.txt)
 
 ## Thanks!
