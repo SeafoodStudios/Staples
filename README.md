@@ -41,9 +41,8 @@ Here are some Staples examples:
 <img width="200" alt="OutputExample2" src="https://github.com/user-attachments/assets/50107c92-e983-4cb0-84a1-2adf204b8e6e" />
 
 
-Here is a syntax dictionary to ensure ease of use:
-[https://raw.githubusercontent.com/SeafoodStudios/Staples/refs/heads/main/static/staples_dictionary.txt
-](https://raw.githubusercontent.com/SeafoodStudios/Staples/refs/heads/main/static/staples_dictionary.txt)
+Here is a syntax dictionary to ensure ease of use (Paste it into a TXT file, if you want.):
+[Syntax Dictionary Link](https://raw.githubusercontent.com/SeafoodStudios/Staples/refs/heads/main/static/staples_dictionary.txt)
 
 ## Thanks!
 **Please don't run any untrusted Staples code.** Thanks for using Staples!
