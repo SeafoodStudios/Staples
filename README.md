@@ -26,9 +26,15 @@ staples runstring <staples_code_as_a_string>
 staples compilestring <python_code_as_a_string>
 ```
 In case you don't understand, running the file runs Staples code and compiling converts Python to Staples.
-Here's an example of Staples: [https://raw.githubusercontent.com/SeafoodStudios/Staples/refs/heads/main/examples/dodge.py.staples](https://raw.githubusercontent.com/SeafoodStudios/Staples/refs/heads/main/examples/dodge.py.staples)
+Here are some Staples examples: 
 
-<img width="200" alt="OutputExample" src="https://github.com/user-attachments/assets/d06bf9ec-d659-4a68-a575-3fd1fb0f22b5" />
+[Dodge Game Code](https://raw.githubusercontent.com/SeafoodStudios/Staples/refs/heads/main/examples/dodge.py.staples)
+
+[Snake Game Code](https://raw.githubusercontent.com/SeafoodStudios/Staples/refs/heads/main/examples/snake.py.staples)
+
+<img width="200" alt="OutputExample1" src="https://github.com/user-attachments/assets/d06bf9ec-d659-4a68-a575-3fd1fb0f22b5" />
+
+<img width="200" alt="OutputExample2" src="https://github.com/user-attachments/assets/50107c92-e983-4cb0-84a1-2adf204b8e6e" />
 
 ## Thanks!
 Please don't run any untrusted Staples code. Thanks for using Staples!
