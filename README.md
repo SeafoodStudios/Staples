@@ -46,4 +46,4 @@ Here is a syntax dictionary to ensure ease of use:
 ](https://raw.githubusercontent.com/SeafoodStudios/Staples/refs/heads/main/static/staples_dictionary.txt)
 
 ## Thanks!
-Please don't run any untrusted Staples code. Thanks for using Staples!
+**Please don't run any untrusted Staples code.** Thanks for using Staples!
