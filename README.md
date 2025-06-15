@@ -9,8 +9,6 @@ if [ -d "/Library/Frameworks/Python.framework/Versions/3.13/bin" ]; then
   grep -qxF 'export PATH="/Library/Frameworks/Python.framework/Versions/3.13/bin:$PATH"' ~/.zshrc || \
   echo 'export PATH="/Library/Frameworks/Python.framework/Versions/3.13/bin:$PATH"' >> ~/.zshrc
   source ~/.zshrc
-else
-  echo "Please download the newest version of Python."
 fi
 ```
 Staples can be used using a variety of self-explanatory commands:
