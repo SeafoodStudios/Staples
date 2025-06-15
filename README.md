@@ -26,6 +26,7 @@ staples runstring <staples_code_as_a_string>
 staples compilestring <python_code_as_a_string>
 ```
 In case you don't understand, running the file runs Staples code and compiling converts Python to Staples.
+
 Here are some Staples examples: 
 
 [Dodge Game Code](https://raw.githubusercontent.com/SeafoodStudios/Staples/refs/heads/main/examples/dodge.py.staples)
