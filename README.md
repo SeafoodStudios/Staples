@@ -2,14 +2,14 @@
 Staples is a esoteric language that consists of four characters. This language is built on top of Python, and obfuscates it. Its syntax is binary text, except the hard bracket is zero and the curly bracket is one (facing right). Also, a checksum is required. This is done by copying the the code, reversing it, and making it the opposite bracket (facing left).
 
 ## Quickstart
-Staples can be installed using this command (**Python 3.11 is required**, so if you don't have it installed, install it [here](https://www.python.org/downloads/). Also, you want to run this in a ZSH terminal):
+Staples can be installed using this command (**Python 3.11 is required**, so if you don't have it installed, install it [here](https://www.python.org/downloads/).):
+For MacOS and Linux (You want to run this in a ZSH terminal):
 ```
-pip3 install staples_lang
-if [ -d "/Library/Frameworks/Python.framework/Versions/3.13/bin" ]; then
-  grep -qxF 'export PATH="/Library/Frameworks/Python.framework/Versions/3.13/bin:$PATH"' ~/.zshrc || \
-  echo 'export PATH="/Library/Frameworks/Python.framework/Versions/3.13/bin:$PATH"' >> ~/.zshrc
-  source ~/.zshrc
-fi
+pip3 install staples_lang && if [ -d "/Library/Frameworks/Python.framework/Versions/3.13/bin" ]; then grep -qxF 'export PATH="/Library/Frameworks/Python.framework/Versions/3.13/bin:$PATH"' ~/.zshrc || echo 'export PATH="/Library/Frameworks/Python.framework/Versions/3.13/bin:$PATH"' >> ~/.zshrc && source ~/.zshrc; fi
+```
+For Windows (Not tested, but should work.):
+```
+pip3 install staples_lang; $p='C:\Python313\Scripts'; if (Test-Path $p) { if (-not ($env:Path.Split(';') -contains $p)) { [Environment]::SetEnvironmentVariable('Path', $env:Path + ';' + $p, 'User'); Write-Output "Added $p to User PATH. Restart your terminal." } else { Write-Output "$p is already in PATH." } } else { Write-Output "$p does not exist." }
 ```
 Staples can be used using a variety of self-explanatory commands (A common syntax error is when you include an extra space, because the interpreter cannot read that.):
 ```
