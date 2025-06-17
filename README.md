@@ -12,6 +12,10 @@ For Windows (Not tested, but should work.):
 ```
 pip3 install staples_lang; $p='C:\Python313\Scripts'; if (Test-Path $p) { if (-not ($env:Path.Split(';') -contains $p)) { [Environment]::SetEnvironmentVariable('Path', $env:Path + ';' + $p, 'User'); Write-Output "Added $p to User PATH. Restart your terminal." } else { Write-Output "$p is already in PATH." } } else { Write-Output "$p does not exist." }
 ```
+To update Staples, use this command:
+```
+pip3 install staples-lang --upgrade
+```
 Staples can be used using a variety of self-explanatory commands (A common syntax error is when you include an extra space, because the interpreter cannot read that.):
 ```
 staples runfile <file_path>
