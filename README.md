@@ -51,3 +51,5 @@ Here is a syntax dictionary to ensure ease of use (Paste it into a TXT file, if 
 
 ## Thanks!
 **Please don't run any untrusted Staples code.** Thanks for using Staples!
+
+You can also find Staples on [Esolangs.org](https://esolangs.org/wiki/Staples).
