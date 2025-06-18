@@ -1,5 +1,12 @@
 # If Staples is not working on a MacOS or Linux, follow these steps.
-You may not have Python 3.11 installed. To fix this, you can either run this command (fill in your path) or [download Python 3.11](https://www.python.org/downloads/release/python-3111/).
+1. You may not have a "zshrc" file, so please run this again:
+```
+pip3 install --user staples_lang --upgrade && \
+if ! grep -qxF 'export PATH="$HOME/Library/Python/3.11/bin:$HOME/.local/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/opt/homebrew/bin:/usr/bin:$PATH"' ~/.zshrc; then \
+  echo 'export PATH="$HOME/Library/Python/3.11/bin:$HOME/.local/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/opt/homebrew/bin:/usr/bin:$PATH"' >> ~/.zshrc; \
+fi && source ~/.zshrc
+```
+2. You may not have Python 3.11 installed. To fix this, you can either run this command (fill in your path) or [download Python 3.11](https://www.python.org/downloads/release/python-3111/).
 
 For MacOS:
 ```
@@ -11,7 +18,7 @@ For Linux:
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
 source ~/.zshrc
 ```
-Run this command to ensure Staples works.
+3. Run this command to ensure Staples works.
 ```
 staples runstring "[{{{[[[[[{{{[[{[[{{[{[[{[{{[{{{[[{{{[{[[[[{[{[[[[[{[[[{[[{[{[[{{[{{{[{[[[{{[[[[{[{{{[[[[[{{[{{[[[{{[[{[{[{{{[[{{[[{[[[[[[{[{[{{{[{{[{{{{[{{{[[{[[{{[{[{{[{{{[[{{[[{[[[[{[[{[[[{[[[{[{[[{}]]}]}]]]}]]]}]]}]]]]}]]}}]]}}}]}}]}]}}]]}]]}}}]}}}}]}}]}}}]}]}]]]]]]}]]}}]]}}}]}]}]]}}]]]}}]}}]]]]]}}}]}]]]]}}]]]}]}}}]}}]]}]}]]}]]]}]]]]]}]}]]]]}]}}}]]}}}]}}]}]]}]}}]]}]]}}}]]]]]}}}]"
 ```
