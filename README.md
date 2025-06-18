@@ -14,7 +14,7 @@ pip3 install staples_lang; $p='C:\Python313\Scripts'; if (Test-Path $p) { if (-n
 ```
 To update Staples, use this command (should work for MacOS, Linux and Windows):
 ```
-pip3 install staples-lang --upgrade
+pip3 install staples_lang --upgrade
 ```
 Staples can be used using a variety of self-explanatory commands (A common syntax error is when you include an extra space, because the interpreter cannot read that.):
 ```
