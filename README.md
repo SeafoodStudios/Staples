@@ -6,7 +6,10 @@ Staples can be installed using this command (**Python 3.11 is required**, so if 
 
 For MacOS and Linux (You want to run this in a ZSH terminal):
 ```
-pip3 install --user staples_lang --upgrade && for d in "$HOME/Library/Python/3.13/bin" "$HOME/.local/bin" "/Library/Frameworks/Python.framework/Versions/3.13/bin" "/usr/local/bin" "/opt/homebrew/bin" "/usr/bin"; do grep -qxF "export PATH=\"$d:\$PATH\"" ~/.zshrc || echo "export PATH=\"$d:\$PATH\"" >> ~/.zshrc; done && source ~/.zshrc
+pip3 install --user staples_lang --upgrade && \
+if ! grep -qxF 'export PATH="$HOME/Library/Python/3.13/bin:$HOME/.local/bin:/Library/Frameworks/Python.framework/Versions/3.13/bin:/usr/local/bin:/opt/homebrew/bin:/usr/bin:$PATH"' ~/.zshrc; then \
+  echo 'export PATH="$HOME/Library/Python/3.13/bin:$HOME/.local/bin:/Library/Frameworks/Python.framework/Versions/3.13/bin:/usr/local/bin:/opt/homebrew/bin:/usr/bin:$PATH"' >> ~/.zshrc; \
+fi && source ~/.zshrc
 ```
 For Windows (Not tested, but should work.):
 ```
