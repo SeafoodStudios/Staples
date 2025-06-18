@@ -1,5 +1,5 @@
 # If Staples is not working on a MacOS or Linux, follow these steps.
-1. You may not have Python 3.11 installed. To fix this, run this command (fill in your path).
+You may not have Python 3.11 installed. To fix this, you can either run this command (fill in your path) or [download Python 3.11](https://www.python.org/downloads/release/python-3111/).
 
 For MacOS:
 ```
@@ -11,8 +11,8 @@ For Linux:
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
 source ~/.zshrc
 ```
-2. Run this command to ensure Staples works.
+Run this command to ensure Staples works.
 ```
 staples runstring "[{{{[[[[[{{{[[{[[{{[{[[{[{{[{{{[[{{{[{[[[[{[{[[[[[{[[[{[[{[{[[{{[{{{[{[[[{{[[[[{[{{{[[[[[{{[{{[[[{{[[{[{[{{{[[{{[[{[[[[[[{[{[{{{[{{[{{{{[{{{[[{[[{{[{[{{[{{{[[{{[[{[[[[{[[{[[[{[[[{[{[[{}]]}]}]]]}]]]}]]}]]]]}]]}}]]}}}]}}]}]}}]]}]]}}}]}}}}]}}]}}}]}]}]]]]]]}]]}}]]}}}]}]}]]}}]]]}}]}}]]]]]}}}]}]]]]}}]]]}]}}}]}}]]}]}]]}]]]}]]]]]}]}]]]]}]}}}]]}}}]}}]}]]}]}}]]}]]}}}]]]]]}}}]"
 ```
-If it prints "Staples Works!" or something like that, your fine!
+If it prints "Staples Works!" or something like that, your fine! If it still does not work, please debug with an AI.
