@@ -4,14 +4,14 @@ Staples is an esoteric language that consists of four characters. This language 
 ## Quickstart
 Staples can be installed using this command (**Python 3.11 is required**, so if you don't have it installed, install it [here](https://www.python.org/downloads/release/python-3111/).):
 
-For MacOS and Linux (You want to run this in a ZSH terminal. If Staples is not running, debug with [these instructions](https://github.com/SeafoodStudios/Staples/blob/main/docs/debugmaclinux.md).):
+For MacOS and Linux (You want to run this in a ZSH terminal. If Staples is not running, debug with [these instructions](https://github.com/SeafoodStudios/Staples/blob/main/docs/debugmaclinux.md). This command should also successfully update Staples on Linux and MacOS.):
 ```
 pip3 install --user staples_lang --upgrade && \
 if ! grep -qxF 'export PATH="$HOME/Library/Python/3.11/bin:$HOME/.local/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/opt/homebrew/bin:/usr/bin:$PATH"' ~/.zshrc; then \
   echo 'export PATH="$HOME/Library/Python/3.11/bin:$HOME/.local/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/opt/homebrew/bin:/usr/bin:$PATH"' >> ~/.zshrc; \
 fi && source ~/.zshrc
 ```
-For Windows (Not tested, but should work.):
+For Windows (Not tested, but should work. This should also update Staples on Windows.):
 ```
 pip3 install staples_lang; 
 $p='C:\Python311\Scripts'; 
@@ -25,10 +25,6 @@ if (Test-Path $p) {
 } else { 
   Write-Output "$p does not exist." 
 }
-```
-To update Staples, use this command (should work for MacOS, Linux and Windows):
-```
-pip3 install staples_lang --upgrade
 ```
 Staples can be used using a variety of self-explanatory commands (A common syntax error is when you include an extra space, because the interpreter cannot read that.):
 ```
