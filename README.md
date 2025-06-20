@@ -38,19 +38,19 @@ Staples can be used using a variety of self-explanatory commands (A common synta
 
 Runfile runs the file path (the file has to be raw Staples code) you provided.
 ```
-staples runfile <file_path>
+staples runfile '/Desktop/file.py.staples/'
 ```
 Compilefile reads the Python file path you provide and creates a new file that ends with ".staples" that contains the raw Staples code.
 ```
-staples compilefile <file_path>
+staples compilefile '/Desktop/file.py/'
 ```
 Runstring straight up runs the Staples code string you provide.
 ```
-staples runstring <staples_code_as_a_string>
+staples runstring '[{{{[[[[[{{{[[{[[{{[{[[{[{{[{{{[[{{{[{[[[[{[{[[[[[{[[[{[[{[[{[[[[{{[[{[{[{{[{{[[[{{[{{[[[{{[{{{{[[{[[[[[[{[{[{{{[{{[{{{{[{{{[[{[[{{[{{[[[{{[[{[[[[{[[[[{[[{[[[{[[[{[{[[{}]]}]}]]]}]]]}]]}]]]]}]]]]}]]}}]]]}}]}}]]}]]}}}]}}}}]}}]}}}]}]}]]]]]]}]]}}}}]}}]]]}}]}}]]]}}]}}]}]}]]}}]]]]}]]}]]}]]]}]]]]]}]}]]]]}]}}}]]}}}]}}]}]]}]}}]]}]]}}}]]]]]}}}]'
 ```
 Compilestring takes the Python code you input as a string, converts it to raw Staples code and prints it.
 ```
-staples compilestring <python_code_as_a_string>
+staples compilestring 'print("Hello World!")'
 ```
 Running this command opens the Staples shell.
 ```
