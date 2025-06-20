@@ -1,4 +1,4 @@
-# Staples
+<img width="718" alt="Screenshot 2025-06-20 at 9 28 32 AM" src="https://github.com/user-attachments/assets/894dd514-f5ef-4acb-812c-1218ba35ad45" /># Staples
 Staples is an esoteric language that consists of four characters. This language is built on top of Python, and obfuscates it. Its syntax is binary text, except the hard bracket is zero and the curly bracket is one (facing right). Also, a checksum is required. This is done by copying the the code, reversing it, and making it the opposite bracket (facing left).
 
 ## Quickstart
@@ -68,6 +68,7 @@ Here are some Staples examples:
 
 <img width="200" alt="OutputExample2" src="https://github.com/user-attachments/assets/50107c92-e983-4cb0-84a1-2adf204b8e6e" />
 
+<img width="200" alt="OutputExample3" src="https://github.com/user-attachments/assets/69762ed9-4e38-416a-8de0-04018fa48feb" />
 
 Here is a syntax dictionary to ensure ease of use (Paste it into a TXT file, if you want.):
 
