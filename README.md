@@ -79,6 +79,6 @@ Here is a syntax dictionary to ensure ease of use (Paste it into a TXT file, if 
 [Syntax Dictionary Link](https://raw.githubusercontent.com/SeafoodStudios/Staples/refs/heads/main/static/staples_dictionary.txt)
 
 ## Thanks!
-**Please don't run any untrusted Staples code.** Thanks for using Staples!
+**Please don't run any untrusted Staples code.** Staples is also Turing complete. You can have proof [here](https://raw.githubusercontent.com/SeafoodStudios/Staples/refs/heads/main/static/proof-of-turing-completeness.staples). Thanks for using Staples!
 
 You can also find Staples on [Esolangs.org](https://esolangs.org/wiki/Staples).
