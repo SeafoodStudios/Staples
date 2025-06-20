@@ -68,7 +68,7 @@ Here are some Staples examples:
 
 <img width="200" alt="OutputExample2" src="https://github.com/user-attachments/assets/50107c92-e983-4cb0-84a1-2adf204b8e6e" />
 
-<img width="200" alt="OutputExample3" src="https://github.com/user-attachments/assets/69762ed9-4e38-416a-8de0-04018fa48feb" />
+<img width="800" alt="OutputExample3" src="https://github.com/user-attachments/assets/69762ed9-4e38-416a-8de0-04018fa48feb" />
 
 Here is a syntax dictionary to ensure ease of use (Paste it into a TXT file, if you want.):
 
