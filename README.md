@@ -28,22 +28,30 @@ if (Test-Path $p) {
 ```
 For occasional updating of Staples, use this command (it should work for Windows, Linux and MacOS):
 ```
-pip3 install staples-lang --upgrade
+pip3 install staples_lang --upgrade
 ```
 Staples can be used using a variety of self-explanatory commands (A common syntax error is when you include an extra space, because the interpreter cannot read that.):
+
+Runfile runs the file path (the file has to be raw Staples code) you provided.
 ```
 staples runfile <file_path>
 ```
+Compilefile reads the Python file path you provide and creates a new file that ends with ".staples" that contains the raw Staples code.
 ```
 staples compilefile <file_path>
 ```
+Runstring straight up runs the Staples code string you provide.
 ```
 staples runstring <staples_code_as_a_string>
 ```
+Compilestring takes the Python code you input as a string, converts it to raw Staples code and prints it.
 ```
 staples compilestring <python_code_as_a_string>
 ```
-In case you don't understand, running the file runs Staples code and compiling converts Python to Staples.
+Running this command opens the Staples shell.
+```
+staples
+```
 
 ## Resources
 
