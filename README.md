@@ -30,6 +30,10 @@ For occasional updating of Staples, use this command (it should work for Windows
 ```
 pip3 install staples_lang --upgrade
 ```
+An average Staples command looks like this (notice the comments, which will not throw syntax errors, and will be ignored.):
+```
+[{{{#you can have a comment here#[[[[[{{{[[{[[{{[{[[{[{{[{{{[[{{{[{[[[[{[{[[[[[{[[[{[[{[[{[[[[{{[[{[{[{{[{{[[[{{[{{[[[{{[{{{{[[{[[[[[[{[{[{{{[{{[{{{{[{{{[[{[[{{[{{[[[{{[[{[[[[{[[[[{[[{[[[{[[[{[{[[{}]]}]}]]]}]]#or here#]}]]}]]]]}]]]]}]]}}]]]}}]}}]]}]]}}}]}}}}]#everywhere!#}}]}}}]}]}]]]]]]}]]}}}}]}}]]]}}]}}]]]}}]}}]}]}]]}}]]]]}]]}]]}]]]}]]]]]}]}]]]]}]}}}]]}}}]}}]}]]}]}}]]}]]}}}]]]]]}}}]
+```
 Staples can be used using a variety of self-explanatory commands (A common syntax error is when you include an extra space, because the interpreter cannot read that.):
 
 Runfile runs the file path (the file has to be raw Staples code) you provided.
