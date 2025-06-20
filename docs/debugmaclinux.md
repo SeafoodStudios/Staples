@@ -1,5 +1,7 @@
 # If Staples is not working on a MacOS or Linux, follow these steps.
 Please note that there is a chance it is working, even if it throws an error. You can confirm it by running this command to ensure Staples works. If it prints "Staples Works!" or something like that, your fine!
+> [!TIP]
+> Our PIP package is called "staples_lang", so beware of typosquatting!
 ```
 staples runstring "[{{{[[[[[{{{[[{[[{{[{[[{[{{[{{{[[{{{[{[[[[{[{[[[[[{[[[{[[{[{[[{{[{{{[{[[[{{[[[[{[{{{[[[[[{{[{{[[[{{[[{[{[{{{[[{{[[{[[[[[[{[{[{{{[{{[{{{{[{{{[[{[[{{[{[{{[{{{[[{{[[{[[[[{[[{[[[{[[[{[{[[{}]]}]}]]]}]]]}]]}]]]]}]]}}]]}}}]}}]}]}}]]}]]}}}]}}}}]}}]}}}]}]}]]]]]]}]]}}]]}}}]}]}]]}}]]]}}]}}]]]]]}}}]}]]]]}}]]]}]}}}]}}]]}]}]]}]]]}]]]]]}]}]]]]}]}}}]]}}}]}}]}]]}]}}]]}]]}}}]]]]]}}}]"
 ```
