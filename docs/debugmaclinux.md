@@ -13,7 +13,7 @@ if ! grep -qxF 'export PATH="$HOME/Library/Python/3.11/bin:$HOME/.local/bin:/Lib
   echo 'export PATH="$HOME/Library/Python/3.11/bin:$HOME/.local/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/opt/homebrew/bin:/usr/bin:$PATH"' >> ~/.zshrc; \
 fi && source ~/.zshrc
 ```
-2. If you are still experiencing issues, you may not have Python 3.11 installed. To fix this, you can either run this command (fill in your path) or [follow the instructions](https://github.com/SeafoodStudios/Staples) on the main page carefully, because it provides a Python installation link (if you scroll to the bottom of the provided Python page; it may be hidden).
+2. If you are still experiencing issues, you may not have Python 3.11 installed. To fix this, you can either run this command (fill in your path, replace the "3.13") or [follow the instructions](https://github.com/SeafoodStudios/Staples) on the main page carefully, because it provides a Python installation link (if you scroll to the bottom of the provided Python page; it may be hidden).
 
 For MacOS:
 ```
