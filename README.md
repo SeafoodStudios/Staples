@@ -30,7 +30,7 @@ For occasional updating of Staples, use this command (it should work for Windows
 ```
 pip3 install staples_lang --upgrade
 ```
-An average Staples command looks like this (Notice the comments, which will not throw syntax errors, and will be ignored. Anything that is not in the standard Staples syntax is considered a comment.):
+An average Staples string looks like this (Notice the comments, which will not throw syntax errors, and will be ignored. Anything that is not in the standard Staples syntax is considered a comment.):
 ```
 [{{{#you can have a comment here#[[[[[{{{[[{[[{{[{[[{[{{[{{{[[{{{[{[[[[{[{[[[[[{[[[{[[{[[{[[[[{{[[{[{[{{[{{[[[{{[{{[[[{{[{{{{[[{[[[[[[{[{[{{{[{{[{{{{[{{{[[{[[{{[{{[[[{{[[{[[[[{[[[[{[[{[[[{[[[{[{[[{}]]}]}]]]}]]#or here#]}]]}]]]]}]]]]}]]}}]]]}}]}}]]}]]}}}]}}}}]#everywhere!#}}]}}}]}]}]]]]]]}]]}}}}]}}]]]}}]}}]]]}}]}}]}]}]]}}]]]]}]]}]]}]]]}]]]]]}]}]]]]}]}}}]]}}}]}}]}]]}]}}]]}]]}}}]]]]]}}}]
 ```
