@@ -52,7 +52,7 @@ Compilestring takes the Python code you input as a string, converts it to raw St
 ```
 staples compilestring 'print("Hello World!")'
 ```
-Running this command opens the Staples shell. Please keep in mind that the larger the string, the less likely the shell will run it due to shell issues. To prevent this, please run your commands using the "staples runstring <string>" command outside of the shell.
+Running this command opens the Staples shell. Please keep in mind that the larger the string, the less likely the shell will run it due to shell issues. To prevent this, please run your commands using the "staples runstring" command outside of the shell, because the shell is mainly for testing purposes.
 ```
 staples
 ```
