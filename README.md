@@ -1,6 +1,6 @@
 # Staples
-[![PyPI Downloads](https://static.pepy.tech/badge/staples-lang)](https://pepy.tech/projects/staples-lang)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![PyPI Downloads](https://static.pepy.tech/badge/staples-lang)](https://pepy.tech/projects/staples-lang)
 [![MacOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white)](https://www.apple.com/macos/macos-sequoia/)
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)](https://www.linux.org/)
 
