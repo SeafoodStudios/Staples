@@ -29,4 +29,4 @@ source ~/.zshrc
 ```
 staples runstring "[{{{[[[[[{{{[[{[[{{[{[[{[{{[{{{[[{{{[{[[[[{[{[[[[[{[[[{[[{[{[[{{[{{{[{[[[{{[[[[{[{{{[[[[[{{[{{[[[{{[[{[{[{{{[[{{[[{[[[[[[{[{[{{{[{{[{{{{[{{{[[{[[{{[{[{{[{{{[[{{[[{[[[[{[[{[[[{[[[{[{[[{}]]}]}]]]}]]]}]]}]]]]}]]}}]]}}}]}}]}]}}]]}]]}}}]}}}}]}}]}}}]}]}]]]]]]}]]}}]]}}}]}]}]]}}]]]}}]}}]]]]]}}}]}]]]]}}]]]}]}}}]}}]]}]}]]}]]]}]]]]]}]}]]]]}]}}}]]}}}]}}]}]]}]}}]]}]]}}}]]]]]}}}]"
 ```
-If it prints "Staples Works!" or something like that, your fine! If it still does not work, please debug with an AI.
+If it prints "Staples Works!" or something like that, your fine! If it still does not work, please debug with an AI, although do not blindly run commands, because AI can make mistakes. If all else fails, you can use our [Web Demo](https://github.com/SeafoodStudios/StaplesWeb).
