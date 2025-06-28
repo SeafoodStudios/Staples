@@ -5,12 +5,14 @@
 [![MacOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white)](https://www.apple.com/macos/macos-sequoia/)
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)](https://www.linux.org/)
 [![Windows](https://img.shields.io/badge/Windows-00a4ef?style=flat)](https://www.microsoft.com/en-ca/windows?r=1)
-[![Windows](https://img.shields.io/badge/Staples%20Web%20Demo-008000?style=flat)](https://github.com/SeafoodStudios/StaplesWeb)
+[![Staples Web Demo](https://img.shields.io/badge/Staples%20Web%20Demo-008000?style=flat)](https://github.com/SeafoodStudios/StaplesWeb)
 
 Staples is an esoteric language that consists of four characters. This language is built on top of Python, and obfuscates it. Its syntax is binary text, except the hard bracket is zero and the curly bracket is one (facing right). Also, a checksum is required. This is done by copying the the code, reversing it, and making it the opposite bracket (facing left).
 
 ## Quickstart
 Staples can be installed using this command (**Python 3.11 is required**, so if you don't have it installed, install it [here](https://www.python.org/downloads/release/python-3111/).):
+
+An alternative would be using our [Web Demo](https://github.com/SeafoodStudios/StaplesWeb), although this method is slower and will not interact with your current operating system.
 
 For MacOS (You want to run this in a ZSH terminal. If Staples is not running, debug with [these instructions](https://github.com/SeafoodStudios/Staples/blob/main/docs/debugmaclinux.md).):
 ```
